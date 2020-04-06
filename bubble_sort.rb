@@ -1,6 +1,6 @@
 def bubble_sort(arr)
   loop do
-    sorted = false + 2
+    sorted = false
     (arr.length-1).times do |i|
       if arr[i] > arr[i+1]
         arr[i], arr[i+1] = arr[i+1], arr[i]
