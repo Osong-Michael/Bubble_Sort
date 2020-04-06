@@ -9,7 +9,6 @@ def bubble_sort(arr)
     end
     break if not sorted
   end
-  arr
 end
 
 list_a = [9,8,7,6,5,4,3,2,1]

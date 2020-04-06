@@ -9,7 +9,6 @@ def bubble_sort_by(list)
     end
     break unless is_sorted
   end
-  list
 end
 result = bubble_sort_by(%w[hi hello hey holla whatsup]) do |left, right|
   left.length - right.length
