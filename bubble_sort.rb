@@ -1,9 +1,7 @@
 def bubble_sort(arr)
-  arr_len = arr.length
-
   loop do
     sorted = false
-    (arr_len -1).times do |i|
+    (arr.length-1).times do |i|
       if arr[i] > arr[i+1]
         arr[i], arr[i+1] = arr[i+1], arr[i]
         sorted = true
@@ -14,7 +12,7 @@ def bubble_sort(arr)
   arr
 end
 
-list_a = ['hello', 'hi', 'holla', 'hey']
+list_a = [9,8,7,6,5,4,3,2,1]
 
 puts bubble_sort(list_a)
 
